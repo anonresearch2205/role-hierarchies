@@ -1,0 +1,9 @@
+User,Permission
+Alice,Read
+Alice,Write
+Bob,Write
+Bob,Read
+Charlie,Execute
+David,Read
+David,Write
+Eve,Execute

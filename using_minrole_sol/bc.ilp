@@ -1,0 +1,13 @@
+\ Model _copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Minimize
+ 
+Subject To
+ e_0_0: e_0_0 = 1
+ no_e_1_0: e_1_0 = 0
+ bc_subset_0_edges: e_0_0 - bc_subset_0 = 0
+ bc_subset_0_edges: e_1_0 - bc_subset_0 = 0
+Bounds
+Binaries
+ e_0_0 e_1_0 bc_subset_0
+End
